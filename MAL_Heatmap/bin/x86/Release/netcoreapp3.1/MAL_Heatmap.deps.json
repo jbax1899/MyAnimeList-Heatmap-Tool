@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MAL_Heatmap/1.0.0": {
+        "dependencies": {
+          "JikanDotNet": "1.5.1"
+        },
+        "runtime": {
+          "MAL_Heatmap.dll": {}
+        }
+      },
+      "JikanDotNet/1.5.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/JikanDotNet.dll": {
+            "assemblyVersion": "1.5.0.1",
+            "fileVersion": "1.5.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MAL_Heatmap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JikanDotNet/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j+tlT6w1sil4kXVmZZrWEGeF2LTNt9gjKUfAR1+kW8XxAEINc0L1BihvrvSxo5kpdp3tnWtTWkC71RTDePgNnw==",
+      "path": "jikandotnet/1.5.1",
+      "hashPath": "jikandotnet.1.5.1.nupkg.sha512"
+    }
+  }
+}
